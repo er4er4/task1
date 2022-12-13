@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&family=Roboto:ital@0;1&display=swap');
+
+
+.top {
+    text-align: center;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 500px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    max-width: 700px;
+    /* text-align: center; */
+    /* display: block; */
+    /* display: flex; */
+    display: grid;
+    margin: auto;
+
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+    /* text-align: left; */
+    /* display: inline; */
+
+}
+
+@media (mx-width: 100px){
+    .info {
+        text-align: center;
+        display: block;
+        /* width: 700px; */
+    }
+}
+
+.info-list {
+    display: grid;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.info-list {
+    font-weight: bold;
+}
+
+.quest {
+    color:#86868f;
+    padding-top: 15px;
+    padding-bottom: 0;
+    font-weight: 400;
+    border: 0;
+}
+
+.ans {
+    padding-top: 0px;
+    border: 0;
+}
+
+.cards > :nth-child(1),
+.cards > :nth-child(2),
+.cards > :nth-child(3),
+.cards > :nth-child(4) {
+    text-align: center;
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid #86868f;
+    padding: 10;
+    margin: 10;
+    margin-bottom: 40px;
+    /* width: 700px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+
+.name-card {
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 20px;
+}
+
+.t-links {
+    border: 0;
+    /* background: #86868f; */
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.td-link {
+    text-align: center;
+    /* box-sizing: border-box;  */
+    /* background: #86868f; */
+    /* margin: auto; */
+}
+
+.list-goal {
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+
+/* .t-hours > :nth-child(1),
+.t-hours > :nth-child(2),
+.t-hours > :nth-child(3),
+.t-hours > :nth-child(4),
+.t-hours > :nth-child(5),
+.t-hours > :nth-child(6),
+.t-hours > :nth-child(7) {
+width: 100%; 
+margin-bottom: 20px;
+margin-left: 100px;
+margin-right: 500px;
+
+} */
+
+.t-hours {
+    width: 70%;
+    margin-bottom: 30px;
+    /* background: #86868f; */
+    margin-left: auto;
+    margin-right: auto;
+
+    
+
+}
+
+.day {
+    text-align: left;
+
+}
+
+.t-course {
+    width: 80%;
+    margin-bottom: 30px;
+    /* background: #86868f; */
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+
+
+}
+
+.line {
+    border-bottom: 1px solid #86868f;
+    margin: 0px;
+    padding: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    /* text-align: center; */
+
+}
+
+.card-course {
+    text-align: center;
+
+}
